@@ -26,7 +26,6 @@ def degree_enum(d):
 
 def get_parser():
     parser = argparse.ArgumentParser(
-        'displaypilot',
         description='change windows monitor orientation'
     )
     parser.add_argument('-d', '--debug', action='store_true', help='show debug loggings')
@@ -64,5 +63,9 @@ def main(args):
     return result
 
 
-if __name__ == '__main__':
+def entry():
     sys.exit(main(sys.argv[1:]))
+
+
+if __name__ == '__main__':
+    entry()
