@@ -16,6 +16,8 @@ Installation
 Requirements
 ^^^^^^^^^^^^
 
+`PyWin32>=220 <https://sourceforge.net/projects/pywin32/>`_ is required.
+
 Compatibility
 -------------
 
